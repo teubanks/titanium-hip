@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require 'cli'
+require 'titanium_hip/cli'
 TitaniumHip::CLI.start(ARGV)
 
