@@ -3,7 +3,5 @@ global:
   api_key: blah
 
 rooms:
-  room_id: room_id_or_name
-  api_key: room_1_api_key
-  room_id: room_id_or_name
-  api_key: room_2_api_key
+  room_id_or_namey: room_1_api_key
+  room_id_or_name: room_2_api_key
