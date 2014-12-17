@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
+
+$:.unshift "#{File.dirname(__FILE__)}/../lib"
+require 'bundler'
+
+Bundler.require
 require 'titanium_hip/cli'
 TitaniumHip::CLI.start(ARGV)
 
